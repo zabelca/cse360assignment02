@@ -7,6 +7,7 @@ public class AddingMachine {
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
     output = "0";
+    
   }
   
   public int getTotal () { // returns the value of total
