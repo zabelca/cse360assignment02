@@ -11,7 +11,7 @@ public class AddingMachine {
   }
   
   public int getTotal () {
-    return 0;
+    return total;
   }
   
   public void add (int value) {
@@ -25,7 +25,7 @@ public class AddingMachine {
   }
 
   public String toString () {
-    return "0";
+    return output;
   }
 
   public void clear() {
