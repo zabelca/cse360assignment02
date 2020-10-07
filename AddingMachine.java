@@ -20,7 +20,8 @@ public class AddingMachine {
   }
 
   public void subtract (int value) {
-    
+    total = total - value;
+    output += " - " + value;
   }
 
   public String toString () {
