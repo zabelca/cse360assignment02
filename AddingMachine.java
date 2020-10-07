@@ -1,4 +1,4 @@
-package cse360assignment02
+package cse360assignment02;
 
 public class AddingMachine {
   private int total;
