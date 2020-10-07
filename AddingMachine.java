@@ -2,14 +2,16 @@ package cse360assignment02;
 
 public class AddingMachine {
   private int total;
+  private String ouput;
   
   public AddingMachine () {
     total = 0;  // not needed - included for clarity
+    output = "0";
     
   }
   
   public int getTotal () {
-    return 0;
+    return total;
   }
   
   public void add (int value) {
@@ -23,7 +25,7 @@ public class AddingMachine {
   }
 
   public String toString () {
-    return "";
+    return output;
   }
 
   public void clear() {
