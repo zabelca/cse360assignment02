@@ -1,4 +1,4 @@
-package cse360assignment02;
+package cse360assignment02
 
 public class AddingMachine {
   private int total;
@@ -10,24 +10,26 @@ public class AddingMachine {
     
   }
   
-  public int getTotal () {
+  public int getTotal () { // returns the value of total
     return total;
   }
   
-  public void add (int value) {
+  public void add (int value) { // adds value from total
     total = total + value;
     output += " + " + value;
   }
 
-  public void subtract (int value) {
+  public void subtract (int value) { // subtracts value from total
     total = total - value;
     output += " - " + value;
   }
 
-  public String toString () {
+  public String toString () { // returns the entire equation including the operations
     return output;
   }
 
-  public void clear() {
+  public void clear() { // clears the vlues stored in those variables
+    total = 0;
+    output = "0";
   }
 }
